@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+
+	"name": "YaanAvanIvanEvan",
+	"description": "Launch YaanAvanIvanEvan in new tab",
+	"version": "1.0",
+	"icons": {
+			"16": "img/icon_16.png",
+			"48": "img/icon_48.png",
+			"128": "img/icon_128.png" 
+	},
+	"background": {
+		"scripts": ["background.js"]
+	},
+
+	"permissions": ["tabs"],
+	"browser_action": {
+		"default_title": "Go to YaanAvanIvanEvan"
+	}
+}
